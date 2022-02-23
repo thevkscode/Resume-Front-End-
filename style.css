@@ -1,0 +1,379 @@
+       body {
+           margin: 0px;
+       }
+       /* body header */
+       
+       #body-header {
+           height: 65vh;
+           opacity: 1;
+           background-image: url(background_image.jpeg);
+           background-size: cover;
+           background-position: center;
+           background-attachment: fixed;
+       }
+       /* horizontal-list */
+       
+       .horizontal-list {
+           list-style: none;
+           /*to remove bullet points*/
+           padding-left: 0px;
+       }
+       
+       .horizontal-list li {
+           display: inline-block;
+           margin: 1vw;
+           font-size: 1.5vw;
+       }
+       
+       .horizontal-list li a {
+           color: white;
+           text-decoration: none;
+           /*  to remove the underline */
+           transition: color 0.5s, text-decoration 4s;
+       }
+       
+       .horizontal-list li a:hover {
+           color: white;
+           text-shadow: 0px 0px 4px white;
+           text-decoration: underline;
+           font-weight: bolder;
+       }
+       
+       .text-center {
+           text-align: center;
+       }
+       
+       #name {
+           color: white;
+           font-size: 3.5em;
+           text-align: center;
+           margin-top: 8rem;
+           margin-bottom: 0%;
+           word-spacing: 10px;
+           letter-spacing: 2px;
+           /* margin-top: 3vh; */
+           padding: 0%;
+       }
+       
+       #name:hover {
+           text-shadow: 0px 0px 4px white;
+       }
+       
+       .icons {
+           height: 30px;
+           width: 30px;
+           color: rgba(230, 196, 196, 0.3);
+           margin-top: 0%;
+           border-radius: 50%;
+           margin-bottom: 10px;
+       }
+       
+       .icons:hover {
+           height: 40px;
+           width: 40px;
+           box-shadow: 02px 02px 6px 4px rgb(251, 251, 251);
+       }
+       
+       #about {
+           position: relative;
+       }
+       
+       #my-image {
+           height: 17rem;
+           width: 17rem;
+           margin: auto;
+           margin-top: -16vh;
+       }
+       
+       #my-image img {
+           height: 100%;
+           width: 100%;
+           border-radius: 50%;
+           box-shadow: 0px 0px 6px 4px white;
+       }
+       
+       #about p {
+           text-align: center;
+           margin-left: 20%;
+           margin-right: 20%;
+           background-color: rgb(255, 255, 255);
+           font-family: sans-serif;
+           font-size: larger;
+       }
+       /* section */
+       
+       section {
+           display: flex;
+           flex-direction: column;
+           /* height: 65vh; */
+           align-items: center;
+       }
+       
+       section:nth-child(2n) {
+           background-color: rgb(224, 230, 245);
+       }
+       
+       .section-heading {
+           width: auto;
+           padding: 20px 10px 10px;
+           /* margin: 10px auto; */
+           font-weight: 600;
+           text-transform: uppercase;
+       }
+       
+       .section-heading:hover {
+           font-weight: bolder;
+           text-shadow: 0px 0px 2px rgb(5, 5, 5);
+       }
+       
+       .section-heading span {
+           font-size: 40px;
+           /* color: #2857a4; */
+           color: rgb(14, 14, 14);
+           display: inline-block;
+           /* padding-top: 10px; */
+           /* margin-right: 0.5rem; */
+       }
+       /* skill display */
+       
+       #skills-icon {
+           height: 70px;
+           width: 70px;
+           background-color: rgb(224, 230, 245);
+           /* box-shadow: 2px 2px 2px 2px black; */
+       }
+       
+       #skills-display {
+           width: 60%;
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-around;
+       }
+       
+       .skills-progress {
+           margin: 20px;
+           width: 9.3rem;
+           height: 1.7rem;
+           background-color: rgb(182, 182, 182);
+           border-radius: 0.8rem;
+           /* box-shadow: 2px 0px 0px 2px white; */
+       }
+       
+       .skills-progress:hover {
+           font-size: larger;
+           height: auto;
+           width: 10rem;
+           /* background-color: blue; */
+       }
+       
+       .skills-progress>div {
+           border-radius: 0.8rem 0px 0px 0.8rem;
+       }
+       
+       .skill-name span {
+           color: rgb(253, 253, 253);
+           padding: 12px 0px 0px 5px;
+           font-size: 150%;
+       }
+       /* percentage-classes */
+       
+       .eighty-percent {
+           width: 90%;
+           height: inherit;
+           border-radius: 0.8rem;
+           background-color: rgb(70, 209, 200);
+           border-right: 2px solid rgb(199, 178, 178);
+       }
+       
+       .eighty-five-percent {
+           /* margin: 20px; */
+           width: 85%;
+           height: inherit;
+           border-radius: 0.8rem;
+           background-color: rgb(45, 27, 240);
+           /* box-shadow: 2px 0px 2px 2px rgb(19, 213, 25); */
+           border-right: 2px solid rgb(199, 178, 178);
+       }
+       
+       .ninty-percent {
+           /* margin: 20px; */
+           width: 90%;
+           height: inherit;
+           border-radius: 0.8rem;
+           background-color: rgb(213, 129, 19);
+           border-right: 2px solid rgb(199, 178, 178);
+       }
+       
+       .ninty-five-percent {
+           /* margin: 20px; */
+           width: 90%;
+           height: inherit;
+           border-radius: 0.8rem;
+           background-color: rgb(2, 255, 23);
+           border-right: 2px solid rgb(199, 178, 178);
+       }
+       
+       .seventy-five-percent {
+           width: 75%;
+           height: inherit;
+           border-radius: 0.8rem;
+           background-color: rgb(91, 27, 74);
+           border-right: 2px solid rgb(199, 178, 178);
+       }
+       
+       .sixty-five-percent {
+           width: 65%;
+           height: inherit;
+           border-radius: 0.8rem;
+           background-color: rgb(245, 10, 10);
+           border-right: 2px solid rgb(199, 178, 178);
+       }
+       /* portfolio */
+       
+       #portfolio-icon {
+           height: 60px;
+           width: 60px;
+           margin-bottom: -5px;
+       }
+       
+       #portfolio-container {
+           /* width: 70%; */
+           box-sizing: border-box;
+           display: flex;
+           flex-direction: column;
+           flex-wrap: wrap;
+           padding: 0 50px;
+           margin-bottom: 20px;
+           justify-content: space-around;
+           align-content: center;
+           /* align-items: space-around; */
+       }
+       
+       #portfolio-div {
+           width: 80%;
+           display: flex;
+           flex-direction: row;
+           flex-wrap: wrap;
+           justify-content: space-around;
+           align-content: center;
+       }
+       
+       .portfolio-image-container {
+           max-width: 300px;
+           overflow: hidden;
+           margin: 10px;
+           background-size: cover;
+           background-repeat: no-repeat;
+           position: relative;
+       }
+       
+       .portfolio-image-container img {
+           width: 100%;
+           height: 100%;
+       }
+       
+       .portfolio-details {
+           transition: all 0.5s ease-in-out;
+           position: absolute;
+           top: 0;
+           left: 0;
+           height: 100%;
+           color: transparent;
+           text-align: center;
+           /* align-items: center; */
+           padding: 10px;
+           font-size: 40px;
+       }
+       
+       .portfolio-image-container:hover {
+           box-shadow: 0 0 20px #74ADC8;
+       }
+       
+       .portfolio-image-container:hover .portfolio-details {
+           background-color: #80808078;
+           color: white;
+       }
+       /* contact */
+       
+       #Contact {
+           display: flex;
+           background-image: linear-gradient(90deg, rgb(0, 31, 96), rgb(0, 35, 115));
+       }
+       
+       #Contact h1 span {
+           color: white;
+       }
+       
+       #contact-img {
+           height: 70px;
+           width: 80px;
+           margin-bottom: -9px;
+           color: white;
+           background-color: rgb(0, 33, 104);
+       }
+       
+       #contact-form {
+           height: 800px;
+           display: flex;
+           flex-direction: row;
+       }
+       
+       #contact-form input,
+       textarea {
+           max-width: 90%;
+           margin: 15px;
+           padding: 4px 10px;
+           border: 0px solid transparent;
+           border-bottom: 2px solid white;
+           color: #d9dcdd;
+           background: transparent;
+           width: 90%;
+           line-height: 1.6;
+           font-size: 1.05rem;
+       }
+       /* #contact-name {
+           border: 0px solid transparent;
+           border-bottom: 2px solid white; */
+       /* border-top: 0px solid black;
+                           border-left: 0px solid black;
+                           border-right: 0px solid black; */
+       /* height: 25px; */
+       /* width: 90%;
+           font-size: 1.05rem;
+           display: flex;
+           flex-direction: column;
+           margin: 15px;
+           background: transparent;
+           line-height: 1.6;
+           padding: 4px 15px;
+           color: white;
+       } */
+       /* #message {
+           color: white;
+           border: 0px solid transparent;
+           border-bottom: 2px solid white;
+           width: 90%;
+           font-size: 1.05rem;
+           display: flex;
+           flex-direction: column;
+           margin: 15px;
+           background: transparent;
+           line-height: 1.6;
+           padding: 4px 15px;
+       }  */
+       
+       #contact-form button[type="submit"] {
+           background: transparent;
+           font-size: 0.95rem;
+           border: 2px solid white;
+           margin-top: 5%;
+           margin-left: 35%;
+           border-radius: 2px;
+           color: white;
+           font-family: sans-serif;
+           font-weight: 700;
+           letter-spacing: 0.046875em;
+           line-height: 1;
+           padding: 0.8em 0.8em 0.78em;
+           text-transform: uppercase;
+       }
